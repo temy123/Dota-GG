@@ -1,5 +1,6 @@
 import initSqlJs from 'sql.js';
-const WASM_URL = 'https://github.com/temy123/Dota-GG/dist/sql-wasm.wasm';
+const WASM_URL =
+	'https://raw.githubusercontent.com/temy123/Dota-GG/main/app/static/dist/sql-wasm.wasm';
 const DB_URL = 'https://raw.githubusercontent.com/temy123/Dota-GG-DB/main/od.db';
 
 let sqlModel;
