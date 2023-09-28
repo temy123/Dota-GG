@@ -1,3 +1,5 @@
+export const prerender = true;
+
 // import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 
 // Initialization for ES Users

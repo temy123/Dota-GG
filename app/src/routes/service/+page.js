@@ -26,6 +26,7 @@ async function fetchHeroData() {
 
 async function initSqlJsModel() {
 	const config = {
+		// locateFile: (file) => `/dist/${file}`
 		locateFile: (file) => WASM_URL
 	};
 	const sql = await initSqlJs(config);
